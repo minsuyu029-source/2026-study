@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>스터디 모집 - 구민수</title>
+
+        <!-- css 영역-->
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- 헤더 영역 : 로고, 메뉴 영역 -->
+        <header>
+            <div class="wrapper">
+                <a href="main" class="logo">Full-stack Dev Study</a>
+                <!-- 메뉴 영역 -->
+                <nav>
+                    <!-- 모바일 화면일 떄 나타나는 버튼 -->
+                    <button class="btn-menu">Menu</button>
+                    <ul class="main-nav">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#curriculum">Curriculum</a></li>
+                        <li><a href="#mentors">Mentors</a></li>
+                        <li><a href="#apply">Apply</a></li>
+                    </ul>
+                    
+                </nav>
+            </div>
+        </header>
+
+        <!-- main -->
+        <section id="main">
+            <div>
+                <h1>FUll-stack Dev Study</h1>
+                <p class="main-date">
+                    2026.09.01 ~ 2026.10.27
+                    매주 화요일 19:00 ~ 21:00
+                </p>
+                <p>
+                    프론트엔드부터 백엔드, 베포까지 한 번에 경험하는
+                    8주 완성 풀스텍 개발 스터디입니다.
+                    혼자서는 끝까지 완주하기 어려웠던 사이트 프로젝트, 
+                    이번엔 함꼐 끝까지 만들어 봅시다.
+                </p>
+            </div>
+        </section>
+
+        <!-- About 영역 -->
+        <section id="about" class="wrapper">
+            <h2>About</h2>
+            <p>
+                이 스터디는 실무에서 자주 사용하는 
+                기술 스택(React, Node.js, Express, MongoDB)을
+                처음부터 끝까지 직접 만들어 보며 배우는 것을 
+                목표로 합니다.
+                매주 이론 학습과 실습을 병행하고,
+                마지막 주에는 각자 완성한 프로젝트를 발표하는
+                데모데이를 진행합니다.
+            </p>
+            <img src="images/hero02.png" alt="스터디 진행 모습">
+        </section>
+
+        <!-- Curriculm 영역 -->
+        <section id="curriculum">
+            <h2>Curriculm</h2>
+            <div class="wrapper">
+                <table class="curriculum-table">
+                    <tr>
+                        <td class="week">1주차</td>
+                        <td class="content">HTML / CSS 기초 다지기</td>
+                    </tr>
+                    <tr>
+                        <td class="week">2주차</td>
+                        <td class="content">JavaSCript 핵심 문법 정리</td>
+                    </tr>
+                    <tr>
+                        <td class="week">3주차</td>
+                        <td class="content">React로 프론트엔드 화면 만들기</td>
+                    </tr>
+                    <tr>
+                        <td class="week">4주차</td>
+                        <td class="content">Node.js & Express로 서버 만들기</td>
+                    </tr>
+                    <tr>
+                        <td class="week">5주차</td>
+                        <td class="content">MongoDB로 데이터베이스 다루기</td>
+                    </tr>
+                    <tr>
+                        <td class="week">6주차</td>
+                        <td class="content">프론트엔드 - 백엔드 API 연동하기</td>
+                    </tr>
+                    <tr>
+                        <td class="week">7주차</td>
+                        <td class="content">배포하기 (Vercel / Render)</td>
+                    </tr>
+                    <tr>
+                        <td class="week">8주차</td>
+                        <td class="content">최종 프로젝트 발표회(데모데이)</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <!-- Mentors 영역 -->
+        <section id="mentors">
+            <h2>Mentors</h2>
+            <!-- first mentor area -->
+            <div class="mentors-list">
+                <!-- 내용 영역 -->
+                 <div class="mentors-text">
+                    <h3>이서연</h3>
+                    <p>
+                        3년 차 프론트엔드 개발자로, React와 사용자 경험(UX)에 관심이 많습니다.
+                        처음 코딩을 시작했을 때의 막막함을 잘 알기에, 
+                        눈높이에 맞춘 설명을 목표로 스터디를 운영하고 있습니다.
+                    </p>
+                 </div>
+                 <!-- 멘토 사진 -->
+                  <img src="images/mentor01.jpg" alt="이서연 사진">
+            </div>
+
+             <!-- second mentor area -->
+            <div class="mentors-list">
+                <!-- 내용 영역 -->
+                 <div class="mentors-text">
+                    <h3>정우진</h3>
+                    <p>
+                        백엔드와 인프라를 주로 다루는 개발자입니다.
+                        실제 서비스 운영 경험을 바탕으로 서버, 데이터베이스, 배포까지 
+                        실무에 가까운 흐름을 함께 만들어가고자 합니다.
+                    </p>
+                 </div>
+                 <!-- 멘토 사진 -->
+                  <img src="images/mentor02.jpg" alt="정우진 사진">
+            </div>
+        </section>
+
+        <!-- 참여 신청 및 문의 사항 영역-->
+        <section id="apply">
+            <h2>Apply</h2>
+            <form class="apply-form" method="get" action="#">
+                <label>Name</label>
+                <input class="apply-field" type="text" placeholder="예 : 구민수">
+                <label>Email</label>
+                <input class="apply-field" type="text" placeholder="예 : minsuyu029@gmail.com">
+                <label>참여 동기</label>
+                <textarea class="apply-field apply-textarea" placeholder="스터디에 참여하고 싶은 이유를 요약해주시요."></textarea>
+                <input class="apply-btn" type="submit" value="지원하기">
+            </form>
+
+            <div class="footer">
+                <p>
+                   <a href="mailto:minsuyu029@gmail.com">문의사항</a>  /
+                   <small>&copy; 2026 웹기초 프로그램 구민수</small>
+                </p>
+            </div>
+        </section>
+        
+        <!-- JavaScript -->
+         <script src="js/script.js"></script>
+    </body>
+</html>
