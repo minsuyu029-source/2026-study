@@ -25,10 +25,11 @@
                         <li><a href="#mentors">Mentors</a></li>
                         <li><a href="#apply">Apply</a></li>
                     </ul>
-                    
                 </nav>
             </div>
         </header>
+
+        <button class="btn-theme" aria-label="다크 모드 전환">🌙</button>
 
         <!-- main -->
         <section id="main">
@@ -43,6 +44,11 @@
                     8주 완성 풀스텍 개발 스터디입니다.
                     혼자서는 끝까지 완주하기 어려웠던 사이트 프로젝트, 
                     이번엔 함꼐 끝까지 만들어 봅시다.
+                </p>
+
+                <p class="clock">
+                    <span class="clock-date">----년 --월 --일 (-)</span>
+                    <span class="clock-time">--:--:--</span>
                 </p>
             </div>
         </section>
@@ -145,8 +151,11 @@
                 <input class="apply-field" type="text" placeholder="예 : 구민수">
                 <label>Email</label>
                 <input class="apply-field" type="text" placeholder="예 : minsuyu029@gmail.com">
+                
                 <label>참여 동기</label>
-                <textarea class="apply-field apply-textarea" placeholder="스터디에 참여하고 싶은 이유를 요약해주시요."></textarea>
+                <textarea class="apply-field apply-textarea" maxlength="200" placeholder="스터디에 참여하고 싶은 이유를 요약해주시요."></textarea>
+                <p class="char-count">0 / 200자</p>
+                
                 <input class="apply-btn" type="submit" value="지원하기">
             </form>
 
